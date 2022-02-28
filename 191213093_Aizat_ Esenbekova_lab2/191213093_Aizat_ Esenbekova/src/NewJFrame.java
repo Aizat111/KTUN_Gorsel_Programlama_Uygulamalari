@@ -10,7 +10,7 @@ public class NewJFrame extends javax.swing.JFrame {
   
     }
 
-
+    DefaultListModel  myModel = new DefaultListModel();
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -175,7 +175,7 @@ public class NewJFrame extends javax.swing.JFrame {
        //Listeye Ekle butonu seçildiyse
        if(ae93_jRadioButton1.isSelected()){
         //jlistte yansıtmak için yeni ListModel tanımlıyoruz
-        DefaultListModel  myModel = new DefaultListModel();  
+          
         //comboboxta seçilen itemi alıyoruz
         String selItem=(String) ae93_jComboBox1.getSelectedItem();
         // arasındaki boşuklara göre kelimeleri bölmek
