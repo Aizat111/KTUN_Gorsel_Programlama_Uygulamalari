@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ae93_jButton1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ae93_lbl7" min="-2" pref="52" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ae93_jFormattedTextField4" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ae93_lbl6" min="-2" pref="52" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ae93_jFormattedTextField3" min="-2" pref="91" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" pref="51" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="ae93_jButton2" max="32767" attributes="0"/>
+                          <Component id="ae93_jButton3" pref="143" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="ae93_lbl4" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ae93_lbl5" min="-2" pref="52" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="ae93_jPasswordField1" pref="256" max="32767" attributes="0"/>
+                          <Component id="ae93_jFormattedTextField2" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ae93_lbl2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="ae93_lbl3" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="ae93_lbl1" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ae93_jTextField1" max="32767" attributes="0"/>
+                          <Component id="ae93_jFormattedTextField1" max="32767" attributes="0"/>
+                          <Component id="ae93_jTextField2" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Component id="ae93_jScrollPane2" pref="347" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ae93_lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ae93_lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ae93_lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jFormattedTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ae93_lbl4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jFormattedTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ae93_jPasswordField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_lbl5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ae93_jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ae93_lbl6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jFormattedTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ae93_lbl7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jFormattedTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ae93_jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="ae93_jScrollPane2" min="-2" pref="140" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="81" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="ae93_lbl1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ae93_lbl2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Soyad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ae93_lbl3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maa&#x15f;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ae93_lbl4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x130;&#x15f;e giri&#x15f; tarihi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ae93_lbl5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x15e;ifre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ae93_lbl6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarih"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ae93_lbl7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Yeni Maas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ae93_jTextField1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ae93_jTextField2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ae93_jTextField2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="ae93_jFormattedTextField1">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#,##0" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="ae93_jFormattedTextField2">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="dd.MM.yyyy" subtype="-1" type="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="ae93_jFormattedTextField3">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="dd.MM.yyyy" subtype="-1" type="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="ae93_jFormattedTextField4">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#,##0" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="ae93_jPasswordField1">
+      <Properties>
+        <Property name="echoChar" type="char" value="+"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ae93_jPasswordField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ae93_jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kayit Ekle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ae93_jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ae93_jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Listele"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ae93_jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ae93_jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guncelle"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="ae93_jList1">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="ae93_jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="ae93_jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Ad" type="java.lang.Object">
+                  <Data value="Ahmet"/>
+                  <Data value="Ay&#x15f;e"/>
+                  <Data value="Fatma"/>
+                  <Data value="Mustafa"/>
+                </Column>
+                <Column editable="true" title="Soyad" type="java.lang.Object">
+                  <Data value="Arf"/>
+                  <Data value="Y&#x131;lmaz"/>
+                  <Data value="U&#xe7;ar"/>
+                  <Data value="Y&#x131;ld&#x131;r&#x131;m"/>
+                </Column>
+                <Column editable="true" title="Maa&#x15f;" type="java.lang.Object">
+                  <Data value="3000"/>
+                  <Data value="4000"/>
+                  <Data value="5000"/>
+                  <Data value="3000"/>
+                </Column>
+                <Column editable="true" title="&#x130;&#x15f;e Giri&#x15f; Tarihi" type="java.lang.Object">
+                  <Data value="10.02.2017"/>
+                  <Data value="05.12.2016"/>
+                  <Data value="07.09.2015"/>
+                  <Data value="10.02.2017"/>
+                </Column>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
