@@ -2,12 +2,6 @@ import javax.swing.DefaultListModel;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JPasswordField;
 
-
-
-/**
- *
- * @author happy
- */
 public class Lab_3 extends javax.swing.JFrame {
 
  DefaultTableModel myModel;
@@ -213,24 +207,24 @@ public class Lab_3 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void ae93_jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ae93_jTextField2ActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_ae93_jTextField2ActionPerformed
 
     private void ae93_jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ae93_jPasswordField1ActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_ae93_jPasswordField1ActionPerformed
 
     private void ae93_jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ae93_jButton1ActionPerformed
         
         int i;
-      
-        Object sifre=123;
-        if(ae93_jPasswordField1.getPassword()==sifre);
+        
+        if(String.valueOf(ae93_jPasswordField1.getPassword()).equals("123"))
         {
+            System.out.println("buraya geldim");
             myModel=(DefaultTableModel) ae93_jTable1.getModel();
-            for(i=0;i<myModel.getRowCount();i++);
+            //for(i=0;i<myModel.getRowCount();i++);
            /* myModel.setValueAt(ae93_jTextField1.getText(),i, 0);
-             myModel.setValueAt(ae93_jTextField2.getText(),i, 1);
+              myModel.setValueAt(ae93_jTextField2.getText(),i, 1);
               myModel.setValueAt(ae93_jFormattedTextField1.getText(),i,2);
               myModel.setValueAt(ae93_jFormattedTextField2.getText(),i,3);*/
             String [] data= new String[4];
@@ -262,35 +256,8 @@ public class Lab_3 extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_ae93_jButton2ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Lab_3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Lab_3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Lab_3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Lab_3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Lab_3().setVisible(true);
