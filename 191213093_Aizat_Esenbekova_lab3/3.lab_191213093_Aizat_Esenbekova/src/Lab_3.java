@@ -68,6 +68,7 @@ public class Lab_3 extends javax.swing.JFrame {
 
         ae93_jFormattedTextField4.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#,##0"))));
 
+        ae93_jPasswordField1.setEchoChar('+');
         ae93_jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ae93_jPasswordField1ActionPerformed(evt);
@@ -89,6 +90,11 @@ public class Lab_3 extends javax.swing.JFrame {
         });
 
         ae93_jButton3.setText("Guncelle");
+        ae93_jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ae93_jButton3ActionPerformed(evt);
+            }
+        });
 
         ae93_jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { " " };
@@ -220,13 +226,7 @@ public class Lab_3 extends javax.swing.JFrame {
         
         if(String.valueOf(ae93_jPasswordField1.getPassword()).equals("123"))
         {
-            System.out.println("buraya geldim");
             myModel=(DefaultTableModel) ae93_jTable1.getModel();
-            //for(i=0;i<myModel.getRowCount();i++);
-           /* myModel.setValueAt(ae93_jTextField1.getText(),i, 0);
-              myModel.setValueAt(ae93_jTextField2.getText(),i, 1);
-              myModel.setValueAt(ae93_jFormattedTextField1.getText(),i,2);
-              myModel.setValueAt(ae93_jFormattedTextField2.getText(),i,3);*/
             String [] data= new String[4];
         data[0]=ae93_jTextField1.getText();
         data[1]=ae93_jTextField2.getText();
@@ -240,21 +240,27 @@ public class Lab_3 extends javax.swing.JFrame {
     private void ae93_jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ae93_jButton2ActionPerformed
         // TODO add your handling code here:
        model=new DefaultListModel(); 
-        ae93_jList1.setModel(model);
+       ae93_jList1.setModel(model);
        Object ae93_bilgi = null;
         
-        Object ae93_temp=ae93_jFormattedTextField3.getAccessibleContext();
-        for(int j=0;j<myModel.getRowCount();j++)
+        Object ae93_temp=ae93_jFormattedTextField3.getText();
+        for(int j=0;j<ae93_jTable1.getRowCount();j++)
         {
-            if(myModel.getValueAt(j,3)==ae93_temp)
+            if(ae93_jTable1.getValueAt(j,3).equals(ae93_temp))
             {
-                ae93_bilgi= myModel.getValueAt(j,0) +" "+myModel.getValueAt(j,1);
+                ae93_bilgi= ae93_jTable1.getValueAt(j,0) +" "+ae93_jTable1.getValueAt(j,1);
                    model.addElement(ae93_bilgi);
-                  System.out.println("dfvsf");
+                  
             }
          
         }
     }//GEN-LAST:event_ae93_jButton2ActionPerformed
+
+    private void ae93_jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ae93_jButton3ActionPerformed
+        String yeniMaas=ae93_jFormattedTextField4.getText();
+        int selectedRow=ae93_jTable1.getSelectedRow();
+        ae93_jTable1.setValueAt(yeniMaas, selectedRow, 2);
+    }//GEN-LAST:event_ae93_jButton3ActionPerformed
 
     public static void main(String args[]) {
 
