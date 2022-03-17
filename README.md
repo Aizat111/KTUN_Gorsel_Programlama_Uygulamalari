@@ -4,5 +4,3 @@ Burada hem birinci öğretimlerin hem ikinci öğretimlerin yapmış olduğu uyg
 Her dosyanın için aşagıda aynı isimle açıklayıcı bir <strong> Readme </strong> bulunuyor. Oradan bakabilirsiniz. 
 Takıldığınız yer varsa  benimle iletişime  geçebilirsiniz.
 Başarılar dilerim 😊
-
-<strong> Not: </strong> Programın çalışmasında bir sıkıntı olursa Readme dosayasını içinden silip deneyin...
