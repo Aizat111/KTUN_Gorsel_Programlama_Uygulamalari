@@ -9,8 +9,8 @@ Market Ürünleri:
   - Patates
   - Elma 
 - Günlük
-  - Süt
-  - Ekmek
+  - Süt 
+  - Ekmek 
 - Sağdaki tree için default gelen modeli siliniz. (Bunla ilgili eklemeler kod üzerinde
 yapılacaktır).
 - Market adını uygulama ilk açılışta soyadınız olacak şekilde ayarlayınız.
@@ -22,3 +22,12 @@ Menü adı Dosya olarak ayarlayın. 3 MenuItem sırasıyla “Yeni Sipariş”, 
 Çıkış Yap Menüsünün kısayolunu Ctrl+Q olarak ayarlayınız. Çıkış Yap Menüsüne basıldığında uygulamadan çıkış yapması için gerekli kodu yazınız.
 Menüden Yeni Siparişe basıldığında aşağıda görüldüğü gibi bir Dialog penceresi açınız. “Hayır,Teşekkürler” veya “İptal Et” basıldığında dialog kapanacak başka işlem yapmayacaktır.
 “Evet” butonuna tıklandığında Sağdaki Tree nesnesi için 5 farklı daire eklenecektir. Ve aşağıda gördüğünüz 2. Mesaj gibi bir dialog ekranı açınız. Bunları yaparken Market Adı ismini dinamik olarak veriniz.<br/>
+
+![image2](images/2_1lab4.png)
+![image3](images/3_1lab4.png)
+Seçileni Sipariş Olarak Ekle butonuna basıldığında market listesinde seçilen ürünü kapıcı sipariş listesinde seçilen daireye ekleyiniz. İki taraftan biri seçili değilse işlem yapmayınız.
+![image4](images/4_1lab4.png)
+Seçileni Siparişten Çıkar butonuna basıldığında kapıcı listesinde seçilen ürün kapıcı sipariş listesinden silecektir.
+Menüdeki dosya içerisindeki Ayarlar Menüsüne basıldığında başlığı “Ayarlar” olan bir frame açınız. Bir Text Field ve bir Buton ekleyiniz. Buton ismini “Market Adı Değiştir” olarak yazınız. İlk açıldığında o anki market adı Text Field da yazılı olarak gelsin. Market adı değiştirildiğinde tüm projede bulunan market adı değişecek ve Ayarlar penceresi kapanacaktır. 
+![image5](images/6_1lab4.png)
+![image6](images/7_1lab4.png)
