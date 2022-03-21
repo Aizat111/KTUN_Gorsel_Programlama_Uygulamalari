@@ -1,0 +1,5 @@
+Masa-120
+Sandalye-100
+Koltuk-150
+Dolap-500
+Kitaplık-480
